@@ -20,3 +20,25 @@ A simple and responsive Weather Dashboard Web App built with **React.js** and **
 - **Frontend**: React.js, Tailwind CSS
 - **API**: OpenWeatherMap API (or any other weather API of choice)
 - **State Management**: React Hooks (useState, useEffect)
+
+## 📦 Installation & Setup
+
+1. *Clone the Repository*
+   sh
+   git clone https://github.com/Shashank01729/weather-app.git
+   cd weather-app
+   
+2. *Install Dependencies*
+   sh
+   npm install
+   
+3. *Get API Key*
+   - Sign up at [OpenWeatherMap](https://openweathermap.org/) and get your API key.
+   - Create a .env file in the root directory and add:
+     env
+     VITE_WEATHER_API_KEY=your_api_key_here
+     
+4. *Run the Application*
+   sh
+   npm run dev
+   
