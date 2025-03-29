@@ -24,13 +24,15 @@ A simple and responsive Weather Dashboard Web App built with **React.js** and **
 ## 📦 Installation & Setup
 
 1. *Clone the Repository*
-   sh
+   ```sh
    git clone https://github.com/Shashank01729/weather-app.git
    cd weather-app
+   ```
    
 2. *Install Dependencies*
-   sh
+   ```sh
    npm install
+   ```
    
 3. *Get API Key*
    - Sign up at [OpenWeatherMap](https://openweathermap.org/) and get your API key.
@@ -39,6 +41,6 @@ A simple and responsive Weather Dashboard Web App built with **React.js** and **
      VITE_WEATHER_API_KEY=your_api_key_here
      
 4. *Run the Application*
-   sh
+   ```sh
    npm run dev
-   
+   ```
