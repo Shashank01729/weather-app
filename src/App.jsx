@@ -7,10 +7,7 @@ import Loader from "./components/Loader";
 import ErrorMsg from "./components/ErrorMsg";
 import ForecastCard from "./components/ForecastCard";
 
-// const API_KEY = import.meta.env.VITE_WEATHER_API_KEY;
-
-const env = await import.meta.env;
-const API_KEY = (env.VITE_WEATHER_API_KEY);
+const API_KEY = import.meta.env.VITE_WEATHER_API_KEY;
 
 function App(){
   const [city, setCity] = useState("");
